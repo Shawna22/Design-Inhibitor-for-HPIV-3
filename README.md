@@ -11,12 +11,11 @@ This study developed a computational framework to design small molecule inhibito
 - **Monte Carlo Tree Search (MCTS)** for molecule generation
 - **ADMET** property prediction for virtual screening
 
-![Pipeline Overview](images/pipeline.png)
-*Note: Replace `images/pipeline.png` with the actual path to your pipeline image after uploading it to the repository.*
+![Pipeline Overview]([https://github.com/Shawna22/Design-Inhibitor-for-HPIV-3/blob/main/HPIV3_Pipeline.png])
 
 ## Step 1: Set Up Software and Dependencies
 
-We recommend using a Conda environment for easy setup. A YAML file (`inhibitor_HPIV.yml`) is provided to configure the environment. Refer to the official documentation for [Chemprop](https://chemprop.readthedocs.io/) and [AutoDock](http://autodock.scripps.edu/) for additional setup details.
+The author recommends using a Conda environment for easy setup. A YAML file (`inhibitor_HPIV.yml`) is provided to configure the environment. Refer to the official documentation for [Chemprop](https://chemprop.readthedocs.io/) and [AutoDock](http://autodock.scripps.edu/) for additional setup details.
 
 ```bash
 conda env create -f inhibitor_HPIV.yml
