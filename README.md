@@ -1,4 +1,4 @@
-# Design-Inhibitor-for-HPIV-3
+# Design Inhibitor for HPIV-3
 
 This repository contains the code and instructions to reproduce the results from Xuan's Bachelor's Thesis, titled **MPNN-based Design of Novel Inhibitors for Human Parainfluenza Virus 3**. Below is a complete guide to replicate the study.
 
