@@ -29,10 +29,10 @@ conda activate inhibitor_HPIV
 
 ## Step 2: Clustering
 
-Starting with 17 experimentally verified small molecules known to inhibit the HPIV-3 HN protein, we used RDKit to calculate Morgan fingerprints for each molecule. Tanimoto coefficients were computed between molecule pairs, and the Butina algorithm was applied to cluster molecules using a Tanimoto coefficient threshold of 0.7. Murcko scaffolds were generated for each cluster.
+Starting with 17 experimentally verified small molecules known to inhibit the HPIV-3 HN protein, we used RDKit to calculate Morgan fingerprints for each molecule. Tanimoto coefficients were computed between molecule pairs, and the Butina algorithm was applied to cluster molecules using a Tanimoto coefficient threshold of 0.7. Murcko scaffolds were generated for each cluster. A notebook is provided here.
 
 ```bash
-python clustering.py
+clustering.ipynb
 ```
 
 ## Step 3: SmallWorld Search
