@@ -23,9 +23,9 @@ logger = logging.getLogger(__name__)
 # 用户配置参数
 NUM_TREES = 10  # 独立 MCTS 树的数目，可在此修改
 NUM_TOP_MOLECULES = 1000  # 输出前多少个高评分分子
-INPUT_MCS_FILE = 'test_mcs.txt'
-INPUT_SUBS_FILE = 'subs_extract.txt'
-CHEMPROP_MODEL_PATH = '/home/liuxuan/Drug_design/train/train_classification_10/fold_0/model_0/best.pt'
+INPUT_MCS_FILE = 'test_mcs.txt' # 骨架文件
+INPUT_SUBS_FILE = 'subs_extract.txt' # 取代基文件
+CHEMPROP_MODEL_PATH = 'your_trained_model/fold_0/model_0/best.pt'
 CHEMPROP_PREDICT_SCRIPT = 'chemprop predict'
 PREDICT_BATCH_SIZE = 100
 MAX_SUBSTITUENTS = 4
@@ -34,8 +34,8 @@ TOTAL_ITERATIONS = 1000  # 每棵树的迭代次数
 NUM_PROCESSES = 8
 EXPLORATION_CONSTANT = 0.7
 SCORE_THRESHOLD = 0.5
-GENERATED_MOLECULES_FILE = 'generated_molecules.txt'
-GENERATED_VISUALIZATION_DIR = 'generated_molecules'
+GENERATED_MOLECULES_FILE = 'your_generated_molecules.txt'
+GENERATED_VISUALIZATION_DIR = 'your_generated_molecules'
 
 # 设置工作目录
 home_dir = os.path.expanduser('~')
