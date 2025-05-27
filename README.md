@@ -11,7 +11,7 @@ This study developed a computational framework to design small molecule inhibito
 - **Monte Carlo Tree Search (MCTS)** for molecule generation
 - **ADMET** property prediction for virtual screening
 
-![HPIV-3 Pipeline](https://raw.githubusercontent.com/Shawna22/Design-Inhibitor-for-HPIV-3/main/HPIV3_Pipeline.png)
+![HPIV-3 Pipeline](https://github.com/Shawna22/Design-Inhibitor-for-HPIV-3/blob/main/HPIV3_Pipeline.png)
 
 ## Step 1: Set Up Software and Dependencies
 
