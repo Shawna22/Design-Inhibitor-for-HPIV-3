@@ -15,7 +15,7 @@ This study developed a computational framework to design small molecule inhibito
 
 ## Step 1: Set Up Software and Dependencies
 
-The author recommends using a Conda environment for easy setup. A YAML file (`inhibitor_HPIV.yml`) is provided to configure the environment. Refer to the official documentation for [Chemprop](https://chemprop.readthedocs.io/) and [AutoDock](http://autodock.scripps.edu/) for additional setup details.
+The author recommends using a Conda environment for easy setup. A YAML file (`inhibitor_HPIV.yml`) is provided to configure the environment. Refer to the official documentation for [Chemprop](https://chemprop.readthedocs.io/) and [AutoDock](http://autodock.scripps.edu/) for additional setup details. [Meeko](https://github.com/forlilab/Meeko/) is required to run the scripts for docking.
 
 ```bash
 conda env create -f inhibitor_HPIV.yml
@@ -43,7 +43,7 @@ Visit [SmallWorld](https://sw.docking.org/search.html) to perform the search.
 
 ## Step 4: Docking
 
-The 3D structure of the target protein was extracted from PDB ID [1V3D](https://www.rcsb.org/structure/1V3D). AutoDock was used to perform molecular docking between the small molecules and the target binding site.
+The 3D structure of the target protein was extracted from PDB ID [1V3D](https://www.rcsb.org/structure/1V3D). AutoDock was used to perform molecular docking between the small molecules and the target binding site. Make sure you retrived required files for preparing.py and docking.py from [Meeko](https://github.com/forlilab/Meeko/).
 
 ```bash
 python preparing.py
