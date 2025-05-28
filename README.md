@@ -43,7 +43,7 @@ Visit [SmallWorld](https://sw.docking.org/search.html) to perform the search.
 
 ## Step 4: Docking
 
-The 3D structure of the target protein was extracted from PDB ID [1V3D](https://www.rcsb.org/structure/1V3D). AutoDock was used to perform molecular docking between the small molecules and the target binding site. Make sure you retrived required files for preparing.py and docking.py from [Meeko](https://github.com/forlilab/Meeko/).
+The 3D structure of the target protein was extracted from PDB ID [1V3D](https://www.rcsb.org/structure/1V3D). AutoDock was used to perform molecular docking between the small molecules and the target binding site. Make sure you retrived required files for (`preparing.py`) and (`docking.py~) from [Meeko](https://github.com/forlilab/Meeko/).
 
 ```bash
 python preparing.py
